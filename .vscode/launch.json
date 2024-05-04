@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/prana/OneDrive/Desktop/Complete_DSa/DSA_Complete_Series/2_stl",
-      "program": "c:/Users/prana/OneDrive/Desktop/Complete_DSa/DSA_Complete_Series/2_stl/build/Debug/outDebug",
+      "cwd": "c:/Users/prana/OneDrive/Desktop/Complete_DSa/DSA_Complete_Series/3_basicmaths",
+      "program": "c:/Users/prana/OneDrive/Desktop/Complete_DSa/DSA_Complete_Series/3_basicmaths/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
