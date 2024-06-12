@@ -24,8 +24,8 @@ int main(){
             // logic is that for each index value it is minimum of distance from top bottom left or right then subtract it from n
             int top=i;
             int bottom=2*n-2-i;
-            int right=j;
-            int left=2*n-2-j;
+            int right=2*n-j-2;
+            int left=j;
             int min_distance=min(min(top,bottom),min(left,right));
             cout<<n-min_distance;
         }

@@ -1,5 +1,5 @@
 // this file will teach all about hashing 
-// so all those ways for computing number frequency y=using O(n^2) 
+// so all those ways for computing number frequency using O(n^2) 
 // or array approach but it has restriction that for any num>=10^6/7
 #include<bits/stdc++.h>
 using namespace std;
@@ -12,7 +12,7 @@ int main(){
     // for all the operations it take log(n) time complexity
     // but unordered map take average O(1) but in worst case it can take upto O(n)
     map<int,int> mpp;
-    // for unordered map jst make unordered_amp instead of map
+    // for unordered map just make unordered_map instead of map
     unordered_map<int,int> um;
     for(int i=0;i<10;i++){
         mpp[arr[i]]++;

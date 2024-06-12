@@ -9,6 +9,7 @@ int main(){
     if(n==0)
         cnt=1;
     else
+        // direct computation instead of using any division method
         cnt=log10(n)+1;
     cout<<cnt;
 }

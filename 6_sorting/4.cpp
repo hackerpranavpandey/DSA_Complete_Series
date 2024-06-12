@@ -26,6 +26,7 @@ int partition(int arr[],int low,int high){
     }
     // now swap with arr[j]
     swap(arr[low],arr[j]);
+    // here arr[low] is selected as pivot so j is correct position for pivot
     return j;
 }
 void quicksort(int arr[],int low,int high){

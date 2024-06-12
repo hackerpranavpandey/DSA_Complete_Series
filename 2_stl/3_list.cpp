@@ -10,5 +10,6 @@ int main(){
     for(auto it:ls){
         cout<<it<<endl;
     }
+    // cout<<ls[0]; // wring way to access so iterator is good
     return 0;
 }

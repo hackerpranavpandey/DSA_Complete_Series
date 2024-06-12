@@ -57,10 +57,10 @@ int main(){
 
     v5.pop_back(); // will delete last entry
 
-    v.swap(v5); // wap value of v and v5
+    v.swap(v5); // swap value of v and v5
     
     v.clear(); // to erase entire vector v
     cout<<v.empty()<<endl; // gives 1 if empty else 0
-   
+    v.insert(v.begin(),10); // one way to insert in front of a vector
     return 0;
 }
